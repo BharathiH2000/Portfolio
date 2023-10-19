@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+}
+nav{
+ position: fixed;  
+ z-index:1000 ; 
+ height: 700px;
+ width: 250px;
+ border: solid;
+ background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.nav-logo img{
+    width: 50%;
+    position: absolute;
+    border-radius: 40%;
+    top: 20px;
+    left: 55px;
+
+}
+.nav-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    line-height: 60px;
+}
+.nav-items a{
+    color: whitesmoke;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.port-folio{
+    display: flex;
+}
+.content{
+    background-color: aqua;
+    height: 4050px;
+    width: 100%;
+}
+.home{
+    height: 500px;
+    width: 800px;
+    margin-left: 300px;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-TLhtH8jerszFrbNH9AHTnsnEgL3fUuEW8gc0dsbGl9XbH9A9ZBwVl4oEztfMopxfwig&usqp=CAU) ;
+     /* background: url(https://i.vimeocdn.com/video/593089736-b68021a4b1fe38fd2123121fa190d749eedf1f7dd3a9699fa1f084fd1665e3ff-d_640x360.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    border: solid;
+     border-radius:5% ;
+
+
+}
+.home-text{
+    /* color: whitesmoke; 
+    border: solid black; */
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.home-name{
+    /* color: whitesmoke; */
+    /* border: solid; */
+    width: 350px;
+}
+.home-about{
+    /* border: solid; */
+    width: 350px;
+    font-size: 20px;
+}
+ .home-image img{
+    height: 330px;
+    width: 250px;
+    position: absolute;
+    top: 120px;
+    left: 800px;
+} 
+ /* .home-image{
+    border: solid;
+    
+}  */
+.qual-name{
+    position: absolute;
+    top: 580px;
+    left: 260px;
+}
+.qual-about{
+    position: absolute;
+    top: 650px;
+    left: 300px;
+    border: solid;
+    background-color: aliceblue;
+    border-radius: 15px;
+    height: 400px;
+    width: 800px;
+     /* background-image: url(https://media0.giphy.com/media/cHmIW3VZQb4GHA0AEn/200w.webp);  */
+    background-repeat: no-repeat;
+    background-position-x: 600px;
+    background-position-y: 100px;
+}
+ .degree{
+    font-size: 18px;
+     font-family:Arial, Helvetica, sans-serif; 
+    position: absolute;
+    top: 15px;
+}
+.PUC{
+    font-size: 18px;
+     font-family:Arial, Helvetica, sans-serif; 
+    position: absolute;
+    top: 120px;
+    
+}
+.SSLC{
+    font-size: 18px;
+     font-family:Arial, Helvetica, sans-serif; 
+    position: absolute;
+    top: 220px;
+    
+}
+.Skills{
+    height: 500px;
+    padding-top: 200px;
+}
+ .skill-name{
+    position: absolute;
+    top: 1100px;
+    left: 280px;
+   
+}
+.skill-about{
+    position: absolute;
+    top: 1180px;
+    left: 300px;
+    border: solid;
+    background-color: aliceblue;
+    border-radius: 15px;
+    height: 900px;
+    width: 800px;
+    font-size: 20px;
+
+} 
+.projects {
+
+    height: 500px;
+
+}
+.projects img{
+    background-color: black;
+    height: 130px;
+    width: 200px;
+    margin-left: 150px;
+}
+.project-name{
+    position: absolute;
+    top: 2090px;
+    left: 280px;
+   
+}
+.duringacademics{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    height: 700px;
+    width: 800px;
+    border: solid;
+    background-color: aliceblue;
+    border-radius: 15px;
+    font-size: 18px;
+
+}
+.unacademics {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+     height: 900px;
+     width: 800px;
+    border-radius: 15px;
+    font-size: 18px;  
+}
+.info {
+height: 500px;
+ }
+ .info-name{
+    position: absolute;
+    top: 2900px;
+    left: 280px;
+   
+}
+.about-info{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    height: 500px;
+    width: 800px;
+    border: solid;
+    background-color: aliceblue;
+    border-radius: 15px;
+    font-size: 18px;
+ 
+}
+
+
+ .contact{
+    height: 500px;
+ }
+
+
+.contact-name{
+    position: absolute;
+    top: 3500px;
+    left: 310px;
+   
+} 
+.contact-info{
+    /* position: absolute; */
+    top: 3650px;
+    left: 280px;
+    height: 300px;
+    width: 800px;
+    border: solid;
+    background-color: aliceblue;
+    border-radius: 15px;
+
+}
