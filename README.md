@@ -1,2 +1,2 @@
 # Portfolio
-This is a HTML and CSS project
+A portfolio project is an collection of our skills,projects,personal information and our educational background.
